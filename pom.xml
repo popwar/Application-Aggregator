@@ -17,4 +17,15 @@
 		<module>../Client</module>
 	</modules>
 
+	<distributionManagement>
+		<repository>
+			<id>releases</id>
+			<url>http://localhost:8083/nexus/content/repositories/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<url>http://localhost:8083/nexus/content/repositories/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 </project>
